@@ -54,6 +54,9 @@ body header p {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
   min-height: 300px;
   padding: 64px;
   margin-top: 42px;
@@ -67,6 +70,19 @@ form fieldset .fieldset-wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+form fieldset .fieldset-wrapper .col-3 {
+  display: flex;
+  justify-content: space-between;
+}
+form fieldset .fieldset-wrapper .col-3 #event-date {
+  width: 312px;
+}
+form fieldset .fieldset-wrapper .col-3 #event-start {
+  width: 128px;
+}
+form fieldset .fieldset-wrapper .col-3 #event-end {
+  width: 128px;
 }
 form fieldset .input-wrapper {
   display: flex;

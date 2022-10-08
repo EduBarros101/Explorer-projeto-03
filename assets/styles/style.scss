@@ -60,6 +60,10 @@ body {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
   min-height: 300px;
   padding: 64px;
 
@@ -75,6 +79,23 @@ form {
       display: flex;
       flex-direction: column;
       gap: 24px;
+
+      .col-3 {
+        display: flex;
+        justify-content: space-between;
+
+        #event-date {
+          width: 312px;
+        }
+
+        #event-start {
+          width: 128px;
+        }
+
+        #event-end {
+          width: 128px;
+        }
+      }
     }
 
     .input-wrapper {
