@@ -166,4 +166,32 @@ form fieldset legend {
   line-height: 34px;
   color: #32264d;
   border-bottom: 1px solid #e6e6f0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 64px;
+  margin-bottom: 100px;
+  height: 136px;
+  background: #f0f0f4;
+  border-radius: 0px 0px 8px 8px;
+  border-top: 1px solid #d6d6d6;
+}
+footer .button {
+  height: 56px;
+  font-family: Archivo;
+  font-weight: 600;
+  line-height: 26px;
+  color: #ffffff;
+  background: #04d361;
+  border-radius: 8px;
+  border: none;
+}
+footer .button:hover {
+  background: #08a04c;
+}
+
+input:invalid {
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
